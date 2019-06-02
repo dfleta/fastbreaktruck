@@ -13,11 +13,6 @@ public class Smiggles extends Cereales {
     }
 
     @Override
-    public Packing envoltorio() {
-        return new Caja();
-    }
-
-    @Override
     public Float pvp() {
         return PVP;
     }
