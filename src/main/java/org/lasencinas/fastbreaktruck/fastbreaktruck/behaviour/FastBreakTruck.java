@@ -6,18 +6,16 @@ import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.FleebJuice;
 import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Smiggles;
 import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.TurbulentJuice;
 
-public class Pedido {
+public class FastBreakTruck {
 
-    public Pedido() {}
-
-    public Desayuno prepararEyeHoles() {
+    public static Desayuno prepararEyeHoles() {
         Desayuno desayuno = new Desayuno();
         desayuno.addItem(new Eyeholes());
         desayuno.addItem(new TurbulentJuice());
         return desayuno;
     }
 
-    public Desayuno prepareSmiggles() {
+    public static Desayuno prepareSmiggles() {
         Desayuno desayuno = new Desayuno();
         desayuno.addItem(new Smiggles());
         desayuno.addItem(new FleebJuice());
