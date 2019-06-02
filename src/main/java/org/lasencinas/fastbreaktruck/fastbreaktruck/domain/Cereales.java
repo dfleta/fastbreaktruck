@@ -16,7 +16,4 @@ public abstract class Cereales implements Item {
                ", Envoltorio: " + this.envoltorio().paquete() +
                ", Precio: " + this.pvp();
     }
-
-
-
 }
