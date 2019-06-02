@@ -2,6 +2,7 @@ package org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour;
 
 import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Desayuno;
 import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Eyeholes;
+import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Smiggles;
 
 public class Pedido {
 
@@ -15,7 +16,7 @@ public class Pedido {
 
     public Desayuno prepareSmiggles() {
         Desayuno desayuno = new Desayuno();
-        //desayuno.addItem(new Smiggles());
+        desayuno.addItem(new Smiggles());
         return desayuno;
     }
 }

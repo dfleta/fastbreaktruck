@@ -14,14 +14,14 @@ public class FastBreakTruck {
 		Pedido orden = new Pedido();
 
 		Desayuno holeDes = orden.prepararEyeHoles();
-		System.out.println("Marchando una de Eyeholes!");
+		System.out.println("No abras la caja de Eyeholes!");
 		holeDes.mostrarItems();
 		System.out.println("Precio pedido: " + holeDes.getCoste());
 		
 		Desayuno smigDes = orden.prepareSmiggles();
 		System.out.println("\nSmiggles per als nins!");
 		smigDes.mostrarItems();
-		//System.out.println("Precio pedido: " + smigDes.getCost());
+		System.out.println("Precio pedido: " + smigDes.getCoste());
 	}
 
 }
