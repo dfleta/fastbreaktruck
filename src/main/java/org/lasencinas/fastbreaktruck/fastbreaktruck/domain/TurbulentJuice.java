@@ -1,7 +1,5 @@
 package org.lasencinas.fastbreaktruck.fastbreaktruck.domain;
 
-import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.Packing;
-
 public class TurbulentJuice extends Bebida {
 
     private final String NOMBRE = "Turbulent juiiiiice"; 
@@ -10,11 +8,6 @@ public class TurbulentJuice extends Bebida {
     @Override
     public String nombre() {
         return NOMBRE;
-    }
-
-    @Override
-    public Packing envoltorio() {
-        return new Tubo();
     }
 
     @Override
