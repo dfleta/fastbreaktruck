@@ -16,7 +16,7 @@ public class FastBreakTruck {
 		Desayuno holeDes = orden.prepararEyeHoles();
 		System.out.println("Marchando una de Eyeholes!");
 		holeDes.mostrarItems();
-		//System.out.println("Precio pedido: " + holeDes.getCoste());
+		System.out.println("Precio pedido: " + holeDes.getCoste());
 		
 		Desayuno smigDes = orden.prepareSmiggles();
 		System.out.println("\nSmiggles per als nins!");
