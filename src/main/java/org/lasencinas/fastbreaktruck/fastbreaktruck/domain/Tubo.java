@@ -5,7 +5,7 @@ import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.Packing;
 public class Tubo implements Packing {
     
     @Override
-    public String paquete() {
+    public String envoltorio() {
         return "tubo";
     }
 }

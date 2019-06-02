@@ -7,14 +7,14 @@ import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Caja;
 public abstract class Cereales implements Item {
 
     @Override
-    public Packing envoltorio() {
+    public Packing empaquetado() {
         return new Caja();
     }
 
     @Override
     public String toString() {
         return "Item: " + this.nombre() +
-               ", Envoltorio: " + this.envoltorio().paquete() +
+               ", Empaquetado: " + this.empaquetado().envoltorio() +
                ", Precio: " + this.pvp();
     }
 }

@@ -5,7 +5,7 @@ import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.Packing;
 public interface Item {
 
     public String nombre();
-    public Packing envoltorio();
+    public Packing empaquetado();
     public Float pvp();
 
 }
