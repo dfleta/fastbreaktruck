@@ -24,9 +24,7 @@ public class Desayuno {
 
     public void mostrarItems() {
         for (Item item : getItems()) {
-            System.out.println("Item: " + item.nombre() +
-                               ", Envoltorio: " + item.envoltorio().paquete() +
-                               ", Precio: " + item.pvp());
+            System.out.println(item);
         }
     }
 

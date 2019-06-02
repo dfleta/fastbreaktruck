@@ -10,4 +10,13 @@ public abstract class Cereales implements Item {
         return new Caja();
     }
 
+    @Override
+    public String toString() {
+        return "Item: " + this.nombre() +
+               ", Envoltorio: " + this.envoltorio().paquete() +
+               ", Precio: " + this.pvp();
+    }
+
+
+
 }
