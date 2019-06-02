@@ -1,5 +1,7 @@
 package org.lasencinas.fastbreaktruck.fastbreaktruck.domain;
 
+import org.lasencinas.fastbreaktruck.fastbreaktruck.types.Cereales;
+
 public class Smiggles extends Cereales {
 
     private final String NOMBRE = "Smiggles";

@@ -1,5 +1,7 @@
 package org.lasencinas.fastbreaktruck.fastbreaktruck.domain;
 
+import org.lasencinas.fastbreaktruck.fastbreaktruck.types.Bebida;
+
 public class FleebJuice extends Bebida {
 
     private final String NOMBRE = "Fleeb juice";

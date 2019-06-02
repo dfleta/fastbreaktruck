@@ -1,5 +1,7 @@
 package org.lasencinas.fastbreaktruck.fastbreaktruck.domain;
 
+import org.lasencinas.fastbreaktruck.fastbreaktruck.types.Bebida;
+
 public class TurbulentJuice extends Bebida {
 
     private final String NOMBRE = "Turbulent juiiiiice"; 
@@ -14,5 +16,4 @@ public class TurbulentJuice extends Bebida {
     public Float pvp() {
         return PVP;
     }
-
 }

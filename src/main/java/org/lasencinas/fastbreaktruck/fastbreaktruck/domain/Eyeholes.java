@@ -1,14 +1,11 @@
 package org.lasencinas.fastbreaktruck.fastbreaktruck.domain;
 
-import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Cereales;
+import org.lasencinas.fastbreaktruck.fastbreaktruck.types.Cereales;
 
 public class Eyeholes extends Cereales {
 
     private final String NOMBRE = "Eyeholes";
     private final Float PVP = 25f;
-
-    public Eyeholes() {
-    };
 
     @Override
     public String nombre() {
@@ -18,7 +15,5 @@ public class Eyeholes extends Cereales {
     @Override
     public Float pvp() {
         return PVP;
-    };
-
-    
+    };    
 }
