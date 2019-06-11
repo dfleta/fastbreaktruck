@@ -2,19 +2,15 @@ package org.lasencinas.fastbreaktruck.fastbreaktruck;
 
 import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.FastBreakTruck;
 import org.lasencinas.fastbreaktruck.fastbreaktruck.domain.Desayuno;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class App {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(FastBreakTruck.class, args);
 
 		/**
 		 * Desayuno Eyeholes
 		 */
-		
+
 		Desayuno holeDes = FastBreakTruck.prepararEyeHoles();
 		System.out.println("No abras la caja de Eyeholes!");
 		holeDes.mostrarItems();

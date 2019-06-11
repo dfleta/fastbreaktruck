@@ -87,7 +87,7 @@ Devuelven el nombre del empaquetado: `caja` o `tubo`.
 
 ## El juguete
 
-Una vez que hayas terminado de implementar la app según la arquitectura indicada en el diagrama de clases UML, añade al desayuno la posibilidad de incluir un juguete, un _plumbus_ en el caso del `Desayuno` de tipo `Smiggles`. 
+Una vez que hayas terminado de implementar la app según la arquitectura indicada en el diagrama de clases UML, añade al desayuno la posibilidad de incluir un juguete, un _plumbus_ en el caso del `Desayuno` de tipo `Smiggles`.
 
 Comprueba que tu código es OCP de modo que no necesites modificar el código que ya has escrito para añadir esta nueva funcionalidad. Si has de modificarlo... _code smell_.
 
