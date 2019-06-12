@@ -92,7 +92,7 @@ Una vez que hayas terminado de implementar la app según la arquitectura indicad
 
 Comprueba que tu código es OCP de modo que no necesites modificar el código que ya has escrito de la clase `Eyeholes` para añadir esta nueva funcionalidad. Si has de modificarlo... _code smell_.
 
-- Prepara un desayuno de tipo `Eyeholes` que incluya un _plumbus_. Añade el 
+- Prepara un desayuno de tipo `Eyeholes` que incluya un _plumbus_.
 
 - Chequea que el _plumbus_ aparece en la salida del tercer caso test en el _script_ principal de la app.
 

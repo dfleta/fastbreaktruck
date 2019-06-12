@@ -11,10 +11,10 @@ public class App {
 		 * Desayuno Eyeholes
 		 */
 
-		Desayuno holeDes = FastBreakTruck.prepararEyeHoles();
+		Desayuno eyeDes = FastBreakTruck.prepararEyeHoles();
 		System.out.println("No abras la caja de Eyeholes!");
-		holeDes.mostrarItems();
-		System.out.println("Precio pedido: " + holeDes.getCoste());
+		eyeDes.mostrarItems();
+		System.out.println("Precio pedido: " + eyeDes.getCoste());
 
 		/**
 		 * Desayuno Smiggles
@@ -29,10 +29,10 @@ public class App {
 		 * Plumbus
 		 */
 
-		smigDes = FastBreakTruck.prepararEyeHoles();
-		FastBreakTruck.incluirJuguete(smigDes);
+		eyeDes = FastBreakTruck.prepararEyeHoles();
+		FastBreakTruck.incluirJuguete(eyeDes);
 		System.out.println("\nEyeholes con plumbus!");
-		smigDes.mostrarItems();
-		System.out.println("Precio pedido: " + smigDes.getCoste());
+		eyeDes.mostrarItems();
+		System.out.println("Precio pedido: " + eyeDes.getCoste());
 	}
 }

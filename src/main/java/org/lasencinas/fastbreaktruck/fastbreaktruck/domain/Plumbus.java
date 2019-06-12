@@ -4,7 +4,7 @@ import org.lasencinas.fastbreaktruck.fastbreaktruck.types.Juguete;
 
 public class Plumbus extends Juguete {
 
-    private final String NOMBRE = "plumbus";
+    private final String NOMBRE = "Plumbus";
     private final Float PVP = 100f;
 
     @Override
