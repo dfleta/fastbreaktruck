@@ -16,6 +16,4 @@ public class FleebJuice extends Bebida {
     public Float pvp() {
         return PVP;
     }
-
-
 }

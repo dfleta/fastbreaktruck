@@ -15,5 +15,5 @@ public class Eyeholes extends Cereales {
     @Override
     public Float pvp() {
         return PVP;
-    };    
+    }
 }

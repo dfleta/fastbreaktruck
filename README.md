@@ -88,11 +88,11 @@ Estas clases crean un `Item` u objeto de ese tipo e inicializan sus propiedades 
 
 ## El juguete
 
-Una vez que hayas terminado de implementar la app según la arquitectura indicada en el diagrama de clases UML, añade al desayuno la posibilidad de incluir un juguete, un _plumbus_ en el caso del `Desayuno` de tipo `Smiggles`.
+Una vez que hayas terminado de implementar la app según la arquitectura indicada en el diagrama de clases UML, añade al desayuno la posibilidad de incluir un juguete, un _plumbus_ en el caso del `Desayuno` de tipo `Eyeholes`. Su precio es de 100 y viene en una caja.
 
-Comprueba que tu código es OCP de modo que no necesites modificar el código que ya has escrito para añadir esta nueva funcionalidad. Si has de modificarlo... _code smell_.
+Comprueba que tu código es OCP de modo que no necesites modificar el código que ya has escrito de la clase `Eyeholes` para añadir esta nueva funcionalidad. Si has de modificarlo... _code smell_.
 
-- Prepara un tercer desayuno de tipo `Smiggles` que incluya un _plumbus_.
+- Prepara un desayuno de tipo `Eyeholes` que incluya un _plumbus_. Añade el 
 
 - Chequea que el _plumbus_ aparece en la salida del tercer caso test en el _script_ principal de la app.
 

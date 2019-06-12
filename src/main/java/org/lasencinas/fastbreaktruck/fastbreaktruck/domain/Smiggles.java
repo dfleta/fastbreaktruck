@@ -16,7 +16,4 @@ public class Smiggles extends Cereales {
     public Float pvp() {
         return PVP;
     }
-
-    
-
 }

@@ -20,7 +20,7 @@ public class App {
 		 * Desayuno Smiggles
 		 */
 		
-		Desayuno smigDes = FastBreakTruck.prepareSmiggles();
+		Desayuno smigDes = FastBreakTruck.prepararSmiggles();
 		System.out.println("\nSmiggles per als nins!");
 		smigDes.mostrarItems();
 		System.out.println("Precio pedido: " + smigDes.getCoste());
@@ -29,8 +29,9 @@ public class App {
 		 * Plumbus
 		 */
 
-		smigDes = FastBreakTruck.prepareSmiggles();
-		System.out.println("\nSmiggles con plumbus!");
+		smigDes = FastBreakTruck.prepararEyeHoles();
+		FastBreakTruck.incluirJuguete(smigDes);
+		System.out.println("\nEyeholes con plumbus!");
 		smigDes.mostrarItems();
 		System.out.println("Precio pedido: " + smigDes.getCoste());
 	}
