@@ -24,7 +24,7 @@ public class Desayuno {
 
     public void mostrarItems() {
         for (Item item : getItems()) {
-            System.out.println(item);
+            System.out.print(item);
         }
     }
 

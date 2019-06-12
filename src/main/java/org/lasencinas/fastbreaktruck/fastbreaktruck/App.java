@@ -12,18 +12,18 @@ public class App {
 		 */
 
 		Desayuno eyeDes = FastBreakTruck.prepararEyeHoles();
-		System.out.println("No abras la caja de Eyeholes!");
+		System.out.print("\nNo abras la caja de Eyeholes!");
 		eyeDes.mostrarItems();
-		System.out.println("Precio pedido: " + eyeDes.getCoste());
+		System.out.print("Precio pedido: " + eyeDes.getCoste());
 
 		/**
 		 * Desayuno Smiggles
 		 */
 		
 		Desayuno smigDes = FastBreakTruck.prepararSmiggles();
-		System.out.println("\nSmiggles per als nins!");
+		System.out.print("\nSmiggles per als nins!");
 		smigDes.mostrarItems();
-		System.out.println("Precio pedido: " + smigDes.getCoste());
+		System.out.print("Precio pedido: " + smigDes.getCoste());
 
 		/**
 		 * Plumbus
@@ -31,8 +31,8 @@ public class App {
 
 		eyeDes = FastBreakTruck.prepararEyeHoles();
 		FastBreakTruck.incluirJuguete(eyeDes);
-		System.out.println("\nEyeholes con plumbus!");
+		System.out.print("\nEyeholes con plumbus!");
 		eyeDes.mostrarItems();
-		System.out.println("Precio pedido: " + eyeDes.getCoste());
+		System.out.print("Precio pedido: " + eyeDes.getCoste());
 	}
 }

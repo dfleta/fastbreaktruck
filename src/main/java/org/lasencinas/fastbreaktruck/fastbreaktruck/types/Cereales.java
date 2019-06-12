@@ -13,8 +13,6 @@ public abstract class Cereales implements Item {
 
     @Override
     public String toString() {
-        return "Item: " + this.nombre() +
-               ", Empaquetado: " + this.empaquetado().envoltorio() +
-               ", Precio: " + this.pvp();
+        return this.outputFormatter();
     }
 }
