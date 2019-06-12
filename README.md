@@ -18,7 +18,7 @@ El desayuno consta de:
 
 ## Diagrama de clases UML
 
-Construye la aplicación según la arquitectura que se representa en el diagrama de clases UML de la figura que se proporciona en el repo.
+Construye la aplicación según la arquitectura que se representa en el diagrama de clases UML de la figura que se proporciona en papel. Al final del examen tendrás que añadir nuevos componentes al diagrama. **Pon tu nombre y devuélvemela al finalizar el examen**.
 
 Respeta los nombres de todos los componentes, métodos y propiedades que se indican.
 
@@ -30,9 +30,8 @@ Respeta los nombres de todos los componentes, métodos y propiedades que se indi
  4. Crea un proyecto **Maven** que incluya tu **nombre y apellidos**.
  5. Pon el proyecto en seguimiento en **Git** y configura `.gitignore`.
  6. Copia y pega la función principal `App.java`. Utilízala como guía en el proceso TDD. **No puedes modificar su código**, pero sí puedes comentar aquellas partes que aun no hayas implementado.
- 7. Añade al proyecto la clase `GenSig.java` que ofrece varias utilidades que emplearás.
- 8. Completa las clases que aquí se indican **implementando los casos test que necesites**. Practica **TDD**.
- 9. Realiza `commits` como mínimo cada vez que termines una historia de usuario.
+ 7. Completa las clases que aquí se indican **implementando los casos test que necesites**. Practica **TDD**.
+ 8. Realiza `commits` como mínimo cada vez que termines una historia de usuario.
 
 ## Cómo entregar el código
 
@@ -54,13 +53,17 @@ Utiliza este script para guiar el desarrollo del diagrama de clases UML.
 
 ## Codigo
 
+### SOLID
+
+Garantiza que tu solución satisfaga los 5 principios SOLID.
+
 ### FastBreakTruck
 
 Prepara dos tipos desayuno:
 
 Eyeholes + Turbulent Juice
 
-o
+y
 
 Smiggles + Fleeb Juice
 
@@ -68,22 +71,20 @@ Para ello, crea un `Desayuno` con un `Item` del tipo `Eyeholes` y otro del tipo 
 
 ### Desayuno
 
-Tiene una colección de `Item`.
-
-- `mostratItems()` recorre los items y mostrarlos en pantalla.
-- `getCoste()` calcula el precio total del desayuno sumando el precio de cada item que lo compone.
+- `mostratItems()` recorre los items y los muestra en pantalla.
+- `getCoste()` calcula el precio total del desayuno.
 
 ### Item
 
 Los métodos de este componente devuelven el nombre, el empaquetado y el precio de cada `Item`
 
-### Eyeholes - Smiggles - TurbulentJuice - FleebJuice
+### FleebJuice - TurbulentJuice -  Smiggles - Eyeholes
 
-Estas clases crean un `Item` u objeto de ese tipo e inicializan sus propiedades nombre, empaquetado y precio.
+Estas clases crean un `Item` u objeto de ese tipo e inicializan sus propiedades nombre, empaquetado y precio (pvp).
 
 ### Caja - Tubo
 
-Devuelven el nombre del empaquetado: `caja` o `tubo`.
+`envoltorio()` devuelve el nombre del empaquetado: `caja` o `tubo`.
 
 ## El juguete
 
