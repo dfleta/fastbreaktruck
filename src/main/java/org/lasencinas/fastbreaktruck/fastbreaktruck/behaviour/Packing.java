@@ -3,5 +3,5 @@ package org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour;
 
 public interface Packing {
 
-    public String envoltorio();
+    String envoltorio();
 }
