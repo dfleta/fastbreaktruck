@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.Item;
 
-
 public class Desayuno {
 
     private List<Item> items = new ArrayList<Item>();
