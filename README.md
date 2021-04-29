@@ -1,6 +1,6 @@
 # Fast Break Truck
 
-Mick & Rorty TM quedan atrapados en el planeta Wabalabadu sin recarga para la pistola de dimensiones de Mick y _out of cash_ (sin parné), pues en ese planeta se paga con EnZinIums y los dólares no sirven para nada.
+Mick & Rorty TM quedan atrapados en el planeta Wabalabadu sin recarga para la pistola de dimensiones de Rick y _out of cash_ (sin parné), pues en ese planeta se paga con EnZinIums y los dólares americanos no sirven para nada.
 
 En vez de hacerse repartidores de Jlobo le quitan el trabajo a dos robococineros en una _fast-break truck_ que prepara desayunos a las crías de los alienígenas antes de entrar en la escuela de educación wabalabadaria.
 
@@ -18,9 +18,11 @@ El desayuno consta de:
 
 ## Diagrama de clases UML
 
-Construye la aplicación según la arquitectura que se representa en el diagrama de clases UML de la figura que se proporciona en papel. Al final del examen tendrás que añadir nuevos componentes al diagrama. **Pon tu nombre y devuélvemela al finalizar el examen**.
+Construye la aplicación según la arquitectura que se representa en el diagrama de clases UML de la figura que se proporciona. Al final del examen tendrás que añadir nuevos componentes al diagrama. **Pon tu nombre y devuélvemela al finalizar el examen**.
 
 Respeta los nombres de todos los componentes, métodos y propiedades que se indican.
+
+![Diagrama de clases UML](./diagrama%20de%20clases.gif)
 
 ## Prepara el proyecto
 
