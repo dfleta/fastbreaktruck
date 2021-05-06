@@ -100,4 +100,4 @@ Comprueba que tu código es OCP de modo que no necesites modificar el código qu
 
 - Añade al diagrama de clases los componentes necesarios para reflejar la extensión que has hecho a la arquitectura del programa y entrégame la hoja.
 
-![Plumbus](https://i.pinimg.com/originals/65/8f/42/658f428f66876ba5fef850ca2a410117.jpg)
+![Plumbus](./images/plumbus.redimensionado.jpeg)
