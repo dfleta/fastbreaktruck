@@ -11,10 +11,10 @@ El desayuno consta de:
 - Una caja de cereales de uno de los dos tipos: _eyeholes_ o _smiggles_
 - Una bebida: _fleeb juice_ o _turbulent juice_
 
-![Eyeholes](https://i.redd.it/h0brsb41byxy.jpg)
-![Smiggles](https://http2.mlstatic.com/fresa-smiggles-rick-y-morty-cereales-para-el-desayuno-fy-D_NQ_NP_788308-MLM26604455613_012018-F.jpg)
-![Fleeb juice](https://images-na.ssl-images-amazon.com/images/I/61uEBPcFdOL._SY679_.jpg)
-![Turbulent juice](https://i.imgur.com/D6yz7nC.jpg)
+![Eyeholes](./images/eyeholes.redimensionado.jpeg)
+![Smiggles](./images/smiggles.redimensionado.jpeg)
+![Fleeb juice](./images/fleebjuice.redimensionado.jpeg)
+![Turbulent juice](./images/turbulent_juice.redimensionado.png)
 
 ## Diagrama de clases UML
 
