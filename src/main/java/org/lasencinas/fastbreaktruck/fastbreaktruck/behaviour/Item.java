@@ -2,8 +2,6 @@ package org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour;
 
 import java.util.Formatter;
 
-import org.lasencinas.fastbreaktruck.fastbreaktruck.behaviour.Packing;
-
 public interface Item {
 
     String nombre();
